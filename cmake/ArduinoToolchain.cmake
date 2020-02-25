@@ -60,6 +60,7 @@ if(NOT ARDUINO_SDK_PATH)
     elseif(WIN32)
         set(SDK_PATH_HINTS "C:\\Program Files\\Arduino"
                 "C:\\Program Files (x86)\\Arduino"
+                "D:\\devel-tools\\arduino-1.8.12"
             )
     endif()
     list(SORT SDK_PATH_HINTS)

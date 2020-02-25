@@ -1,13 +1,10 @@
 cmake_minimum_required(VERSION 2.8.4)
 
-# Comment this line to let CMake detect the SDK
-set(ARDUINO_SDK_PATH "D:\\devel-tools\\arduino-1.8.12")
-
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/ArduinoToolchain.cmake)
 set(PROJECT_NAME arduino_hello)
 project(${PROJECT_NAME})
 
-set(${CMAKE_PROJECT_NAME}_SKETCH main.ino)
+set(${CMAKE_PROJECT_NAME}_SKETCH main.cpp)
 
 #### Uncomment below additional settings as needed.
 # set(${CMAKE_PROJECT_NAME}_BOARD mega)
