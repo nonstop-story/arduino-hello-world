@@ -4,7 +4,7 @@ set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/ArduinoToolchain.cmake)
 set(PROJECT_NAME arduino_hello)
 project(${PROJECT_NAME})
 
-set(${CMAKE_PROJECT_NAME}_SKETCH main.cpp)
+set(${CMAKE_PROJECT_NAME}_SKETCH main.ino)
 
 #### Uncomment below additional settings as needed.
 # set(${CMAKE_PROJECT_NAME}_BOARD mega)
